@@ -1,17 +1,10 @@
 # AccentColorizer-Arm32
 
---- IN DEVELOPMENT ---
-
 Colorize Windows with accent color of your choice - without modifying system files
 
 AccentColorizer patches Windows theme data in-memory and recolorizes everything as soon as you change the accent color.
 
-Supported Windows Vista and higher.
-
-Additional functionality:
-* [AccentColorizer-E11](https://github.com/krlvm/AccentColorizer-E11) to colorize Windows 11 File Explorer icon glyphs
-* [ContextMenuNormalizer](https://github.com/krlvm/ContextMenuNormalizer) to make context menus look more consistent on Windows 10
-* [DragDropNormalizer](https://github.com/krlvm/DragDropNormalizer) to fix drag&drop overlay look on Windows 11 22H2
+Supported Windows 10 build 15035 (Windows RT 8.0 and RT 8.1 are untested as of 23/12/2023).
 
 ### Progress Bar colorization
 
@@ -24,12 +17,11 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\AccentColorizer" /v ColorizeProgressBar /t R
 
 ## Gallery
 
-![Windows 11](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win11.png?raw=true)\
-![Windows 10](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win10.png?raw=true)\
-![Windows 8](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win8.png?raw=true)\
-![Windows 7](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win7.png?raw=true)
+![Windows 10 build 15035](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win10.png?raw=true)\
 
 ## Special thanks
 
+Thanks to *@pahaze* and *@Deinsti* for the [CMake](https://xdaforums.com/t/make-and-cmake-for-arm32-plus-other-apps.4212725) and [llvm-mingw32](https://github.com/armdevvel/llvm-mingw) reimplementations for Windows arm32
+Thanks to *@krlvm* for the original [AccentColorizer](https://github.com/krlvm/AccentColorizer) project
 Thanks to *@mcdenis* for his idea and work on original [AccentApplicator](https://github.com/mcdenis/AccentApplicator)\
 Thanks to *@rounk-ctrl* and his work on [AccentApplicator](https://github.com/rounk-ctrl/AccentApplicator) for bringing this project back to live
