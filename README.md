@@ -1,4 +1,4 @@
-# AccentColorizer
+# AccentColorizer-Arm32
 
 Colorize Windows with accent color of your choice - without modifying system files
 
