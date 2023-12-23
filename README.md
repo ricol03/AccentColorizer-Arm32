@@ -17,11 +17,11 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\AccentColorizer" /v ColorizeProgressBar /t R
 
 ## Gallery
 
-![Windows 10 build 15035](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win10.png?raw=true)\
+![Windows 10 build 15035](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win10.png?raw=true)
 
 ## Special thanks
 
-Thanks to *@pahaze* and *@Deinsti* for the [CMake](https://xdaforums.com/t/make-and-cmake-for-arm32-plus-other-apps.4212725) and [llvm-mingw32](https://github.com/armdevvel/llvm-mingw) reimplementations for Windows arm32
-Thanks to *@krlvm* for the original [AccentColorizer](https://github.com/krlvm/AccentColorizer) project
+Thanks to *@pahaze* and *@Deinsti* for the [CMake](https://xdaforums.com/t/make-and-cmake-for-arm32-plus-other-apps.4212725) and [llvm-mingw32](https://github.com/armdevvel/llvm-mingw) reimplementations for Windows arm32\
+Thanks to *@krlvm* for the original [AccentColorizer](https://github.com/krlvm/AccentColorizer) project\
 Thanks to *@mcdenis* for his idea and work on original [AccentApplicator](https://github.com/mcdenis/AccentApplicator)\
 Thanks to *@rounk-ctrl* and his work on [AccentApplicator](https://github.com/rounk-ctrl/AccentApplicator) for bringing this project back to live
