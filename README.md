@@ -1,5 +1,7 @@
 # AccentColorizer-Arm32
 
+--- IN DEVELOPMENT ---
+
 Colorize Windows with accent color of your choice - without modifying system files
 
 AccentColorizer patches Windows theme data in-memory and recolorizes everything as soon as you change the accent color.
