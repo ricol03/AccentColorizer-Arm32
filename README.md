@@ -17,7 +17,7 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\AccentColorizer" /v ColorizeProgressBar /t R
 
 ## Gallery
 
-![Windows 10 build 15035](https://github.com/krlvm/AccentColorizer/blob/master/.screenshots/win10.png?raw=true)
+![Windows 10 build 15035](https://github.com/ricol03/AccentColorizer-Arm32/blob/master/win10_15035.png?raw=true)
 
 ## Special thanks
 
